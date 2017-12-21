@@ -1226,7 +1226,7 @@ elseif requiredScript == "lib/managers/menu/renderers/menunodetablegui" then
 				FastNet:reconnect()
 				return true
 			elseif self._host_button:inside(x, y) then
-				managers.menu:open_node("crimenet_contract_special", {})
+				managers.menu:open_node("contract_broker", {})
 				managers.menu_component:disable_crimenet()
 				return true
 			elseif self._crimespree_button:visible() and self._crimespree_button:inside(x, y) then
